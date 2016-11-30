@@ -24,6 +24,12 @@
   text-align: center;
 }
 
+#search-wrapper {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+
 #search-wrapper input {
   width: 600px;
   height: 40px;
@@ -31,20 +37,32 @@
   margin-bottom: 30px;
 }
 
+#mic {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+}
+
 #button-holder {
 
 }
 
-
-#button-holder {
-
+.btn {
+  width: 135px;
+  height: 35px;
+  border: none;
+  background-color: #F6F6F6;
+  color: gray;
+  font-size: 13px;
 }
 
 #footer {
   height: 50px;
   background-color: #f2f2f2;
   /*Give the element absolute positioning so we can put it on the bottom*/
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   border-top: solid #E4E4E4 1px;
