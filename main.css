@@ -1,0 +1,41 @@
+#header {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#menu {
+  float: right;
+  margin-right: 10px;
+}
+
+.menu-item {
+  float: left;
+  padding-left: 15px;
+}
+
+#body {
+  text-align: center;
+  width: 80%;
+  margin: 100px auto 0px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 35px;
+  line-height: 35px;
+}
+
+#footer-left {
+  float: left;
+}
+
+#footer-right {
+  float: right;
+  margin-right: 10px;
+}
